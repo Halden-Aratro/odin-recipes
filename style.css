@@ -1,7 +1,11 @@
 h1 {
     font-family: Helvetica, sans-serif;
-    color: rgb(255, 165, 30);
+    color: hsl(36, 100%, 56%);
     font-weight: 700;
+}
+
+h2 {
+    color:hsl(194, 49%, 45%);
 }
 
 p {
@@ -10,6 +14,6 @@ p {
 }
 
 a {
-    color:blueviolet;
+    color:hsl(271, 76%, 53%);
 }
 
