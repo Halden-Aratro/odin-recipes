@@ -1,0 +1,15 @@
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: rgb(255, 165, 30);
+    font-weight: 700;
+}
+
+p {
+    font-family: Garamond, sans-serif;
+    color: rgb(0, 43, 49);
+}
+
+a {
+    color:blueviolet;
+}
+
