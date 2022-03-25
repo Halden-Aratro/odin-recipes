@@ -34,5 +34,28 @@
 
         <p>Back to the <a href="../index.html">main page</a></p>
 
+
+        <script>
+/*             const topTitle = document.querySelector('h1');
+            console.dir(header.firstElementChild);
+            const description = document.querySelector('#description');
+            console.dir(description.previousElementSibling) //selects img
+            const div = document.createElement('div');
+            document.#description.insertBefore(div, 'p');
+            description.insertBefore(div, 'p');
+            const PARATWO = document.createElement('p');
+            topTitle.appendChild(PARATWO);
+            topTitle.style.color = "blue";
+            header.style.cssText = "font: Verdana; background: yellow;";*/
+            const div = document.createElement('div');
+            const H = document.querySelector('h1');
+            H.appendChild(div);
+            div.style.background = 'blue';
+            div.setAttribute('style', 'color = blue; font = Verdana');   
+            div.setAttribute('id', 'lastDiv');
+            div.removeAttribute('id');
+            div.textContent = 'Hello World!'; 
+            
+        </script>
     </body>
 </html>
